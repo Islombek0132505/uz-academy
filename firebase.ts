@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAx8jbju1um0uIWfJzMjbT06SpUdJA3CR0",
-  authDomain: "pdp-clone-app.firebaseapp.com",
-  projectId: "pdp-clone-app",
-  storageBucket: "pdp-clone-app.firebasestorage.app",
-  messagingSenderId: "942778331603",
-  appId: "1:942778331603:web:4f6a061cce79983217bf26"
+  apiKey: "AIzaSyABv2hNR4qbfpRrZ_bm7WoWvk6f7o6yOvA",
+  authDomain: "pdp-clone-c9ef8.firebaseapp.com",
+  projectId: "pdp-clone-c9ef8",
+  storageBucket: "pdp-clone-c9ef8.firebasestorage.app",
+  messagingSenderId: "639799631870",
+  appId: "1:639799631870:web:07f0b439aee5896f17eaaf"
 };
 
 // Initialize Firebase
