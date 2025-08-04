@@ -3,9 +3,9 @@ import { processEducation } from "@/constants"
 
 function ProcessEducation() {
     return (
-        <div className="container max-w-6xl mx-auto mt-20">
-            <h1 className="text-5xl font-black">Ta’lim jarayoni</h1>
-            <div className="grid mt-12 grid-cols-3 gap-x-8 gap-y-6">
+        <div className="container max-w-6xl mx-auto mt-20 max-md:mt-12">
+            <h1 className="text-5xl font-black max-md:text-4xl">Ta’lim jarayoni</h1>
+            <div className="grid mt-12 grid-cols-3 gap-x-8 gap-y-6 max-md:grid-cols-1 max-md:mt-6">
                 {processEducation.map((item, index) => (
                     <ProcessEducationCard key={index} {...item}/>
                 ))}

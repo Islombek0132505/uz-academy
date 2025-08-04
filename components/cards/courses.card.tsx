@@ -34,7 +34,7 @@ function CoursesCard(data: ICourseCard) {
                 </div>
                 
             </div>
-            <div className="flex justify-end gap-4 mt-12">
+            <div className="flex justify-end gap-4 mt-12 max-md:mt-6">
                 <p className="py-2 px-4 bg-slate-50 rounded-full text-gray-500 font-medium">{data.job}</p>
                 <p 
                     className={cn(

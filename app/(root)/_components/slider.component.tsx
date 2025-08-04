@@ -13,13 +13,13 @@ interface ISliderComponent extends React.HTMLAttributes<HTMLDivElement> {
 export const SliderComponent = ({type, title, desc, className, ...props} : ISliderComponent) => {
 
     return (
-        <div className="max-w-6xl mx-auto mt-20 container">
+        <div className="max-w-6xl mx-auto mt-20 container max-md:mt-12">
 
-            <h1 className="text-5xl font-black mb-6">{title}</h1>
-            <p className="text-xl w-2/3">{desc}</p>
+            <h1 className="text-5xl font-black mb-6 max-md:text-4xl">{title}</h1>
+            <p className="text-xl w-2/3 max-md:w-full max-md:text-lg">{desc}</p>
 
             <Carousel 
-                className="mt-12 w-full"
+                className="mt-12 w-full max-md:mt-16"
                 opts={{
                     align: "start",
                 }}
@@ -51,8 +51,8 @@ export const SliderComponent = ({type, title, desc, className, ...props} : ISlid
                     }
                     
                 </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
+                <CarouselPrevious/>
+                <CarouselNext/>
             </Carousel>
         </div>
     )

@@ -8,7 +8,7 @@ interface IMentor {
 
 function MentorCard( data : IMentor) {
     return (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 max-md:gap-2">
             <Image
                 src={data.image}
                 alt={data.name}
@@ -19,7 +19,7 @@ function MentorCard( data : IMentor) {
             <h1 className="text-2xl font-bold">
                 {data.name}
             </h1>
-            <p className="text-lg text-green-500">
+            <p className="text-lg text-green-500 max-md:leading-[110%]">
                 {data.job}
             </p>
         </div>

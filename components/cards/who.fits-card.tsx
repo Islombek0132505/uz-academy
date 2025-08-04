@@ -8,7 +8,7 @@ interface IWhoFitsCard {
 
 function WhoFitsCard(data: IWhoFitsCard) {
     return (
-        <div className="flex gap-8 items-start px-6 py-8 rounded-3xl bg-white">
+        <div className="flex gap-8 max-md:gap-4 items-start px-6 py-8 rounded-3xl bg-white max-md:px-4 max-md:py-6 shadow-lg shadow-slate-200">
             <Image
                 src={data.image}
                 alt="icon"
@@ -17,8 +17,8 @@ function WhoFitsCard(data: IWhoFitsCard) {
                 className="object-contain"
             />
             <div className="flex flex-col gap-4">
-                <h1 className="text-3xl font-semibold">{data.title}</h1>
-                <p className="text-muted-foreground font-medium text-lg">{data.desc}</p>
+                <h1 className="text-3xl font-semibold max-md:text-2xl">{data.title}</h1>
+                <p className="text-muted-foreground font-medium text-lg max-md:text-base ">{data.desc}</p>
             </div>
         </div>
     )

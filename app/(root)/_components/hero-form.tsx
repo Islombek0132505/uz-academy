@@ -46,7 +46,7 @@ export const HeroForm = ({type, ...props } : IHeroForm) => {
                                         disabled = {isLoading}
                                         placeholder="Ismingizni kiriting..." 
                                         {...field} 
-                                        className="bg-slate-200 h-14"
+                                        className="bg-slate-200 h-14 max-md:h-12"
                                     />
                                 </FormControl>
                                 <FormMessage />
@@ -64,7 +64,7 @@ export const HeroForm = ({type, ...props } : IHeroForm) => {
                                         placeholder="940132505" 
                                         {...field} 
                                         type="number"
-                                        className="bg-slate-200 text-2xl h-14"
+                                        className="bg-slate-200 text-2xl h-14 max-md:h-12"
                                     />
                                 </FormControl>
                                 <FormMessage />
@@ -76,7 +76,7 @@ export const HeroForm = ({type, ...props } : IHeroForm) => {
                 <button  
                     className={
                         cn(
-                            "mt-6 text-xl h-14 rounded-lg px-16 transition-all font-semibold", 
+                            "mt-6 text-xl h-14 rounded-lg px-16 transition-all font-semibold max-md:h-12", 
                             type === "green" && "bg-green-500 hover:bg-green-500/80 text-white",
                             type === "yellow" && "bg-yellow-400 hover:bg-yellow-400/80 text-black",
                             type === "black" && "bg-black hover:bg-black/80 text-white",
@@ -93,4 +93,3 @@ export const HeroForm = ({type, ...props } : IHeroForm) => {
 
 
 export default HeroForm
-

@@ -4,10 +4,10 @@ import { educationUs } from "@/constants"
 function EducationInUS() {
     return (
         <div className="container mx-auto mt-20 max-w-6xl">
-            <h1 className="text-5xl font-black">Nima uchun “Uz Academy”da o‘qish kerak?</h1>
+            <h1 className="text-5xl font-black max-md:text-3xl">Nima uchun “Uz Academy”da o‘qish kerak?</h1>
             <div className="grid grid-cols-3 max-md:grid-cols-1 gap-x-8 gap-y-4 mt-6">
                 {educationUs.map((item, index) => (
-                    <HomeCard {...item} type="withImage" titleColor="green" key={index}/>
+                    <HomeCard {...item} type="withImage" titleColor="green" key={index} className="shadow-lg shadow-slate-200"/>
                 ))}
             </div>
         </div>

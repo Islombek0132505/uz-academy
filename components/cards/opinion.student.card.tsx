@@ -24,7 +24,7 @@ function OpinionStutentCart(data: IOpinionStudent) {
         <div className="px-4 py-6 rounded-3xl flex flex-col bg-white">
             <p className={
                 cn(
-                    "text-muted-foreground font-medium",
+                    "text-muted-foreground font-medium" ,
                     showOpinion ? "line-clamp-none" : "line-clamp-4"
                 )}
             >

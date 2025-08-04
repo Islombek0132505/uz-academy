@@ -14,7 +14,7 @@ function Navbar() {
 
     return (
         <div className="fixed inset-0 h-20 z-40 bg-green-500 backdrop-blur-xl">
-            <div className="max-w-6xl h-full mx-auto  flex items-center justify-between">
+            <div className="max-w-6xl h-full mx-auto  flex items-center justify-between max-md:px-4">
                 <div className="flex gap-6 items-center">
                     <Logo href="/" color={theme.theme == "dark" ? "white" : "black"}/>
                     <Link href={"/courses"} className="text-lg text-white font-medium hover:underline hover:underline-offset-2">
@@ -27,11 +27,11 @@ function Navbar() {
                         className="text-base text-green-600 font-bold"
                         onClick={() => route.push("/register")}
                     >
-                        O'qishni boshlash
+                        <span className="max-md:hidden"> O'qishni boshlash</span>
                         <LogInIcon className="font-bold"/>
                     </Button>
                     <Button variant={"secondary"} className="text-base text-green-600 font-bold">
-                        Aloqa
+                        <span className="max-md:hidden">Aloqa</span>
                         <PhoneCall/>
                     </Button>
                 </div>

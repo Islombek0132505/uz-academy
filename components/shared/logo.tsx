@@ -12,9 +12,9 @@ function Logo({href, color = "white"} : LogoLink) {
     return (
         <Link 
             href={href}
-            className="flex gap-2 items-center font-roboto font-medium text-3xl"
+            className="flex gap-2 items-center font-roboto font-medium text-3xl max-md:text-2xl"
         >
-            <span className={color === "white" ? "text-white" : "text-black"}>Uz</span>
+            <span className={color == "white" ? "text-white" : "text-black"}>Uz</span>
             <Image
                 src={"/logo.png"}
                 alt="logo"
@@ -22,7 +22,7 @@ function Logo({href, color = "white"} : LogoLink) {
                 height={40}
                 className="object-contain"
             />
-            <span className={color === "white" ? "text-white" : "text-black"}>Academy</span>
+            <span className={color == "white" ? "text-white" : "text-black"}>Academy</span>
         </Link>
     )
 }

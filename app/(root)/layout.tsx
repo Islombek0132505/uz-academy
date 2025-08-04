@@ -7,7 +7,7 @@ function Layout ({children}: ChildProps) {
     return (
         <div>
             <Navbar/>
-            <main>
+            <main className="max-md:px-4">
                 {children}
             </main>
             <Footer/>
