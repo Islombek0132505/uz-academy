@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { Separator } from "../ui/separator"
-import { IoPersonCircleOutline } from "react-icons/io5";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 

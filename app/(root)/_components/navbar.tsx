@@ -27,7 +27,7 @@ function Navbar() {
                         className="text-base text-green-600 font-bold"
                         onClick={() => route.push("/register")}
                     >
-                        <span className="max-md:hidden"> O'qishni boshlash</span>
+                        <span className="max-md:hidden"> O&rsquo;qishni boshlash</span>
                         <LogInIcon className="font-bold"/>
                     </Button>
                     <Button variant={"secondary"} className="text-base text-green-600 font-bold">

@@ -22,7 +22,7 @@ function Page() {
             </div>
             <div className="mt-12">
                 <h1 className="text-3xl font-medium ">IT kurslari</h1>
-                <p className="text-muted-foreground text-lg mt-2">Dashturlashni o'rganing va dunyo bilan birga rivojlaning</p>
+                <p className="text-muted-foreground text-lg mt-2">Dashturlashni o&rsquo;rganing va dunyo bilan birga rivojlaning</p>
                 <div className="mt-6 grid grid-cols-3 max-md:grid-cols-1 gap-x-12 gap-y-8">
                     <CourseCard/>
                     <CourseCard/>

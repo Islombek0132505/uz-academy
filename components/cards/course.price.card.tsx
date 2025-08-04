@@ -10,9 +10,9 @@ function CoursePriceCard(data: ICoursePrice) {
     return (
         <div className="px-4 py-6 rounded-3xl bg-white flex flex-col items-center gap-2 hover:cursor-pointer hover:shadow-xl hover:shadow-slate-200 duration-300 hover:delay-100 max-md:gap-1">
             <h1 className="font-medium text-green-500 text-2xl max-md:text-xl">{data.time}</h1>
-            <p className="text-4xl font-semibold my-4 max-md:text-3xl">{data.price} so'm</p>
+            <p className="text-4xl font-semibold my-4 max-md:text-3xl">{data.price} so&rsquo;m</p>
             <p className="text-muted-foreground text-center text-lg font-medium">{data.desc}</p>
-            <Link href={"/"} className="bg-green-500 rounded-full px-4 py-2 font-semibold text-white mt-6">Ro'yxatdan o'tish</Link>
+            <Link href={"/"} className="bg-green-500 rounded-full px-4 py-2 font-semibold text-white mt-6">Ro&rsquo;yxatdan o&rsquo;tish</Link>
         </div>
     )
 }

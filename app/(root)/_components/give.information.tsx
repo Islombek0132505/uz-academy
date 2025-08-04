@@ -27,8 +27,9 @@ function GiveInformation({hastitle, hasdesc, variant, className, direction = "ho
                 variant === "inherit" && "bg-inherit",
                 direction === "vertical" && "grid-cols-1", 
                 className
-            )
-        }>
+            )}
+            {...props}
+        >
             <div 
                 className={cn((variant === "green" || variant === "black") && "text-white", "col-span-1 self-center")}>
                 {hastitle && 
@@ -38,7 +39,7 @@ function GiveInformation({hastitle, hasdesc, variant, className, direction = "ho
                 }
                 {hasdesc && 
                     <p className="text-xl mt-6 max-md:text-lg">
-                        Hali ham savollaringiz bormi yoki kurs haqida qaror qabul qila olmayapsizmi? Unda sizga bog‘lanib batafsil ma'lumot beramiz.
+                        Hali ham savollaringiz bormi yoki kurs haqida qaror qabul qila olmayapsizmi? Unda sizga bog‘lanib batafsil ma&rsquo;lumot beramiz.
                     </p>
                 }
             </div>

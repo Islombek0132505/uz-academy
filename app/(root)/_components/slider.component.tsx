@@ -10,10 +10,10 @@ interface ISliderComponent extends React.HTMLAttributes<HTMLDivElement> {
     desc?: string,
 }
 
-export const SliderComponent = ({type, title, desc, className, ...props} : ISliderComponent) => {
+export const SliderComponent = ({type, title, desc, ...props} : ISliderComponent) => {
 
     return (
-        <div className="max-w-6xl mx-auto mt-20 container max-md:mt-12">
+        <div className="max-w-6xl mx-auto mt-20 container max-md:mt-12" {...props}>
 
             <h1 className="text-5xl font-black mb-6 max-md:text-4xl">{title}</h1>
             <p className="text-xl w-2/3 max-md:w-full max-md:text-lg">{desc}</p>

@@ -12,7 +12,7 @@ function Hero() {
                     ziyod maosh olishmoqda!
                 </p>
                 <h2 className="text-muted-foreground w-3/4 mt-4 text-lg max-md:w-full">
-                    Savollaringiz bormi yoki kurs haqida qaror qabul qila olmayapsizmi? Unda sizga bog‘lanib batafsil ma'lumot beramiz.
+                    Savollaringiz bormi yoki kurs haqida qaror qabul qila olmayapsizmi? Unda sizga bog‘lanib batafsil ma&rsquo;lumot beramiz.
                 </h2>
                 <div className="grid grid-cols-4 mt-10 max-md:mt-4">
                     <div className="col-span-3 max-md:col-span-4">

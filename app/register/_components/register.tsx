@@ -25,6 +25,8 @@ function Register() {
 
     const onSubmit = async (values: z.infer<typeof registerScheme>) => {
         route.push("/dashboard")
+        console.log(values)
+        
     }
 
     return (

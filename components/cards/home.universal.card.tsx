@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils"
 import Image from "next/image"
-import { AllHTMLAttributes, ReactNode } from "react"
+import { AllHTMLAttributes } from "react"
 
 type HomeCardType = "withImage" | "withText"
 type TitleColor = "green" | "default"

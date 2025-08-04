@@ -27,7 +27,7 @@ function Page() {
                 <h1 className="text-3xl font-medium mb-2">
                     Platformadagi yangiliklar
                 </h1>
-                <p className="text-lg text-muted-foreground max-md:w-full w-1/2 leading-[1.2]">Platformada yuz beradigan yangilanishlar va yangi kurslar haqida habardor bo'ling</p>
+                <p className="text-lg text-muted-foreground max-md:w-full w-1/2 leading-[1.2]">Platformada yuz beradigan yangilanishlar va yangi kurslar haqida habardor bo&rsquo;ling</p>
 
                 <Carousel
                     className="mt-6 w-full"
@@ -38,7 +38,7 @@ function Page() {
 
                     <CarouselContent>
                         {platformNews.map((item, index) => (
-                            <CarouselItem>
+                            <CarouselItem key={index}>
                                 <PlatformNewsCard {...item} key={index}/>
                             </CarouselItem>
                         ))}
@@ -49,9 +49,9 @@ function Page() {
                 </Carousel>
             </div>
             <div className="mt-12">
-                <h1 className="text-3xl font-medium">Siz o'rganayotgan kurslar</h1>
+                <h1 className="text-3xl font-medium">Siz o&rsquo;rganayotgan kurslar</h1>
                 <div className="my-4 grid-cols-3 gap-y-6 gap-x-3 min-h-36 w-full">
-                    <h1 className="text-muted-foreground">Sizda hozir o'rganayotgan kurslar mavjud emas</h1>
+                    <h1 className="text-muted-foreground">Sizda hozir o&rsquo;rganayotgan kurslar mavjud emas</h1>
                 </div>
 
             </div>

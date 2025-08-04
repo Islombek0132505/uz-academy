@@ -29,11 +29,12 @@ export const HeroForm = ({type, ...props } : IHeroForm) => {
 
     async function onSubmit(values: z.infer<typeof contactScheme>) {
         console.log(values);
+
     }
 
     return (
 
-        <Form {...form}>
+        <Form {...form} {...props}>
             <form onSubmit={form.handleSubmit(onSubmit)}>
                 <div className="space-y-4">
                     <FormField
@@ -84,7 +85,7 @@ export const HeroForm = ({type, ...props } : IHeroForm) => {
                     } 
                     type="submit"
                 >
-                    Ma'lumot olish
+                    Ma&rsquo;lumot olish
                 </button>
             </form>
         </Form>

@@ -10,7 +10,7 @@ function CourseHero() {
                         <span className="text-green-500">Frontend</span><br />
                         Development
                     </h1>
-                    <Link href={"/"} className="px-4 py-2 rounded-full text-white font-medium text-lg bg-green-500 mt-6 w-fit">O'qishni boshlash</Link>
+                    <Link href={"/"} className="px-4 py-2 rounded-full text-white font-medium text-lg bg-green-500 mt-6 w-fit">O&rsquo;qishni boshlash</Link>
                 </div>
                 <Image
                     src={"https://online.pdp.uz/assets/newPdp/roadmap/roadmap.svg"}
