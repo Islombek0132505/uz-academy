@@ -1,16 +1,5 @@
 {
   "projects": {
-    "default": "pdp-clone",
-    "uz-academy": "pdp-clone-c9ef8"
-  },
-  "targets": {
-    "pdp-clone-c9ef8": {
-      "hosting": {
-        "pdp-clone-c9ef8": [
-          "pdp-clone-c9ef8"
-        ]
-      }
-    }
-  },
-  "etags": {}
+    "default": "pdp-site"
+  }
 }

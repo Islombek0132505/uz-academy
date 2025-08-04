@@ -1,0 +1,29 @@
+[debug] [2025-08-04T19:26:07.217Z] ----------------------------------------------------------------------
+[debug] [2025-08-04T19:26:07.219Z] Command:       /Users/macair/.nvm/versions/node/v20.19.0/bin/node /Users/macair/.nvm/versions/node/v20.19.0/bin/firebase init
+[debug] [2025-08-04T19:26:07.219Z] CLI Version:   14.11.2
+[debug] [2025-08-04T19:26:07.219Z] Platform:      darwin
+[debug] [2025-08-04T19:26:07.219Z] Node Version:  v20.19.0
+[debug] [2025-08-04T19:26:07.219Z] Time:          Tue Aug 05 2025 00:26:07 GMT+0500 (Uzbekistan Standard Time)
+[debug] [2025-08-04T19:26:07.219Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-08-04T19:26:07.222Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-08-04T19:26:07.223Z] > authorizing via signed-in user (abdurazzoqov0132505@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/macair/Desktop/ProjectForHR/uz-academy/empty-hosting
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
