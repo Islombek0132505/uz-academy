@@ -10,8 +10,10 @@ function Page() {
     const {authType, setAuth} = useAuthState()
 
     const changeAuthAction = () => {
-        authType === "login" ? setAuth("register") : setAuth("login")
+        if(authType === "login") setAuth("register")
+        if(authType === "register") setAuth("login")
     }
+
 
     return (
         <div className="w-full h-full p-6">

@@ -1,12 +1,13 @@
+import Image from "next/image"
 import Link from "next/link"
 
 function CourseCard() {
     return (
         <div className="flex rounded-2xl bg-background flex-col shadow-lg overflow-hidden group cursor-pointer">
-            <img 
+            <Image 
                 src="https://blog.lewolang.com/images/caa060e9d090a761b399310670dba684.jpg?w=120&h=90&fit=crop" 
                 alt="asd" 
-                className="w-full h-[260px] object-cover"
+                className="w-full h-[260px] object-contain"
             />
             <div className="flex px-2 py-4 flex-col">
                 <h1 className="text-xl font-medium mb-2">Ingliz tili</h1>

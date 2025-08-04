@@ -29,7 +29,7 @@ export const HeroForm = ({type, ...props } : IHeroForm) => {
 
     async function onSubmit(values: z.infer<typeof contactScheme>) {
         console.log(values);
-
+        setLoading(false)
     }
 
     return (
